@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1/linux-arm",
-    "signature": "374e80505fbd9052b4eecb4bef6a755671da12f5"
+    "signature": "40fb13896b3cd2fc189ea1e258f208731cba2deb"
   },
   "compilationOptions": {
     "defines": [
@@ -36,12 +36,14 @@
           "Newtonsoft.Json": "11.0.2",
           "System.Data.SQLite.Core": "1.0.109.2",
           "System.IdentityModel.Tokens.Jwt": "5.3.0",
-          "System.Web.Optimization.Less": "1.3.4"
+          "System.Web.Optimization.Less": "1.3.4",
+          "angularjs": "1.7.5"
         },
         "compile": {
           "MonitoringApp.dll": {}
         }
       },
+      "angularjs/1.7.5": {},
       "Antlr/3.4.1.9004": {
         "compile": {
           "lib/Antlr3.Runtime.dll": {}
@@ -3251,12 +3253,14 @@
           "Newtonsoft.Json": "11.0.2",
           "System.Data.SQLite.Core": "1.0.109.2",
           "System.IdentityModel.Tokens.Jwt": "5.3.0",
-          "System.Web.Optimization.Less": "1.3.4"
+          "System.Web.Optimization.Less": "1.3.4",
+          "angularjs": "1.7.5"
         },
         "runtime": {
           "MonitoringApp.dll": {}
         }
       },
+      "angularjs/1.7.5": {},
       "Antlr/3.4.1.9004": {
         "runtime": {
           "lib/Antlr3.Runtime.dll": {
@@ -7631,6 +7635,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "angularjs/1.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4+HhXGNDLl+SY55r5Os48xluGkh6y6ozunjuYJ26maaO8nf+VBayJdcfXuQ5p7lcLwofebYqr/J30VfvZuHzfA==",
+      "path": "angularjs/1.7.5",
+      "hashPath": "angularjs.1.7.5.nupkg.sha512"
     },
     "Antlr/3.4.1.9004": {
       "type": "package",
